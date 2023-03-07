@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercício I</title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <header>
+            <h1>Exercício I: Calculando Notas</h1>
+        </header>
+        <section>
+            <div>
+                <p><strong>Digite a 1 nota: </strong>
+                    <input type="number" name="txtnota1" id="nota1" min="0"> <!--min é o valor mínimo permitido para entrada-->
+                </p>
+                <p><strong>Digite a 2 nota: </strong>
+                    <input type="number" name="txtnota2" id="nota2" min="0"> <!--min é o valor mínimo permitido para entrada-->
+                </p>
+                <p><strong>Digite a 3 nota:</strong>
+                    <input type="number" name="txtnota3" id="nota3" min="0"> <!--min é o valor mínimo permitido para entrada-->
+                </p>
+                <p><strong>Digite a 4 nota: </strong>
+                    <input type="number" name="txtnota4" id="nota4" min="0"> <!--min é o valor mínimo permitido para entrada-->
+                </p>
+                <p>
+                    <input type="button" value="verificar" onclick="Calcular()">
+                </p>
+            </div>
+            <div id="res">
+
+            </div>
+        </section>
+        <footer>
+            <p>&copy; DevFront-End: HelyfAvila</p>
+        </footer>
+        <script src="ex001.js"></script>
+    </body>
+</html>
