@@ -7,7 +7,10 @@ function Calcular(){ //Feito por Helyf Avila
     
     if(num1.value.length == 0 || num2.value.length ==0 || op.value.length == 0 ){
         alert(`[ERRO] Digite um valor válido por favor!`) 
-        return;
+        txtnum1.value = "" //utilizado para no retorno limpar dados que estão atribuidos a input
+        txtnum2.value = ""
+        op.value = ""
+        return; //retorna programa
     
     }else{
         let numero1 = Number(num1.value);
@@ -39,6 +42,5 @@ function Calcular(){ //Feito por Helyf Avila
             }
         }
     } 
-
-    
 }
+
