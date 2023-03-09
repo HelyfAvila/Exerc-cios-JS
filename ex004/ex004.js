@@ -5,6 +5,9 @@ function Calcular(){
 
     if(num1.value.length == 0 || num2.value.length == 0){
         alert(`[ERRO] Digite um número ! `)
+        num1.value = ''
+        num2.value = ''
+        return;
 
     }else{
         let numero1 = Number(num1.value);

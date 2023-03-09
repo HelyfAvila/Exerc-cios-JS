@@ -8,6 +8,11 @@ function Calcular(){ //Feito Por Helyf Avila
 
     if(notaum.value.length == 0 || notadois.value.length == 0 || notatres.value.length == 0  || notaquatro.value.length == 0 ){
         alert(`[ERRO] é necessário digitar um número! `)
+        notaum.value = ''
+        notadois.value = ''
+        notatres.value = ''
+        notaquatro.value = ''
+        return;
     }else{
         let notaa1 = Number(notaum.value); 
         let notaa2 = Number(nota2.value);

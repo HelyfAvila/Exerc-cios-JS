@@ -5,6 +5,9 @@ function Calcular(){
 
     if(nota1.value.length == 0 || nota2.value.length == 0){
         alert(`[ERRO] Digite um número!`)
+        nota1.value = ''
+        nota2.value = ''
+        return;
     }else{
         let notaa1 = Number(nota1.value);
         let notaa2 = Number(nota2.value);
